@@ -6,10 +6,14 @@ public class Main {
 	public static void main(String[] args) {
 
 		System.out.println("Starting main method ..... : " + (new Date().toString()));
-		
+
 		Singleton.verify();
 		Singleton singleton1 = Singleton.getInstance();
 		Singleton singleton2 = Singleton.getInstance();
+
+		if (singleton1.equals(singleton2)) {
+			System.out.println("Both instances are same....");
+		}
 
 	}
 
