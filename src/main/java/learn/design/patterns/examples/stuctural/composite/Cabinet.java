@@ -5,7 +5,7 @@ public class Cabinet extends NonLeaf implements Component {
 	@Override
 	public void showPice() {
 		System.out.println("Cabinet component");
-		this.getLeaf().forEach(i->i.showPice());
+		this.getLeaf().forEach(i -> i.showPice());
 	}
 
 }
