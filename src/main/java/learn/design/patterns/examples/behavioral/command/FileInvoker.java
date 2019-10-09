@@ -4,7 +4,7 @@ public class FileInvoker {
 
 	// Use if required
 
-	public Command command;
+	private Command command;
 
 	public FileInvoker(Command c) {
 		this.command = c;
